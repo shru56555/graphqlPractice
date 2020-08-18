@@ -77,22 +77,3 @@ app.use('/graphql', graphqlHTTP({
 }));
 
 app.listen(4000, () => console.log('Server is running on port 4000'));
-
-
-// query getStudentDetail($studentId: Int!){
-//     student(id: $studentId){
-//       name
-//       address
-//       year
-//     }
-//   }
-
-// query getStudents($course: String){
-//     students(course: $course){
-//       name
-//     }
-//   }
-  
-
-
-  

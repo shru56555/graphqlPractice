@@ -1,0 +1,14 @@
+// query getStudentDetail($studentId: Int!){
+//     student(id: $studentId){
+//       name
+//       address
+//       year
+//     }
+//   }
+
+// query getStudents($course: String){
+//     students(course: $course){
+//       name
+//     }
+//   }
+  
